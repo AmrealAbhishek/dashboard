@@ -13,8 +13,8 @@ function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
       alert("You have Signed Out Successfully.")
-      $(".g-signin2").css("display","block");
-      $(".data").css("display","none ");
+      $(".g-signin2").css("display", "block");
+      $(".data").css("display", "none ");
     });
 }
 
